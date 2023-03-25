@@ -18,13 +18,12 @@ void printBoard()
         for (int j = 0; j < N; j++)
         {
             if (board[i][j])
-                cout << greentxt << "Q  " << nocolo;
+                cout << greentxt << "Q " << nocolo;
             else
 
-                cout << "□  ";
+                cout << ". ";
         }
-        cout << endl
-             << endl;
+        cout << endl;
     }
 }
 
